@@ -29,7 +29,6 @@ jobs:
     - run: npm ci
   publish:
     runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/main' }}
     needs: [quality]
     steps:
       - uses: actions/checkout@v2
