@@ -39,7 +39,7 @@ jobs:
       - run: npm ci
       - run: npm run semantic-release
         env:
-          NPM_TOKEN: "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"
+          NPM_TOKEN: "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"
           GITHUB_TOKEN: "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"
 
     
