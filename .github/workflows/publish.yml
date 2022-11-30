@@ -39,7 +39,9 @@ jobs:
       - run: npm ci
       - run: npm run semantic-release
         env:
-          NPM_TOKEN: ${{ secrets.access_token }}
+          NPM_USERNAME: "offaman_22"
+          NPM_PASSWORD: "2214303378"
+          NPM_EMAIL: "amanjangra.tech@gmail.com"
           GITHUB_TOKEN: "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"
 
     
