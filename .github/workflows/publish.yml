@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
-      - run: npm run semantic-release
+      - run: npx semantic-release
         env:
           NPM_USERNAME: "offaman_22"
           NPM_PASSWORD: "2214303378"
